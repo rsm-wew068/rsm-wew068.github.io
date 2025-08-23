@@ -283,6 +283,12 @@ body {
     box-shadow: var(--shadow);
 }
 
+.timeline-marker.current {
+    background: var(--success-color);
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 0 4px rgba(15, 123, 15, 0.3);
+}
+
 .timeline-content {
     background: var(--bg-secondary);
     border-radius: var(--radius-lg);
