@@ -91,22 +91,6 @@ body {
     border-color: var(--accent-color);
 }
 
-.profile-fallback {
-    font-size: 4rem;
-    color: var(--text-secondary);
-    background: var(--bg-secondary);
-    padding: 1rem;
-    border-radius: 50%;
-    display: none;
-    width: 6rem;
-    height: 6rem;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-}
-
 .profile-avatar i {
     font-size: 4rem;
     color: var(--text-secondary);
@@ -281,6 +265,24 @@ body {
     border-radius: 50%;
     border: 3px solid var(--bg-primary);
     box-shadow: var(--shadow);
+}
+
+.timeline-marker.current {
+    background: var(--success-color);
+    animation: pulse 2s infinite;
+    box-shadow: 0 0 0 0 rgba(15, 123, 15, 0.7);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(15, 123, 15, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(15, 123, 15, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(15, 123, 15, 0);
+    }
 }
 
 .timeline-content {
