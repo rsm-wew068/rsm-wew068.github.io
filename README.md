@@ -32,61 +32,6 @@ Production-grade AI agent processing Enron emails with human-in-the-loop validat
 Full-stack system automating hiring lifecycle from resume parsing to offer generation.  
 [🔗 Repository](https://github.com/rsm-wew068/ai-recruitment-hub.git)
 
-### 🎼 Machine Learning for Music
-**Technologies**: LSTM, Transformers, REMI Tokenization, Diffusion Models  
-Complete music AI pipeline from MIDI classification to generative composition.  
-[🔗 Repository](https://github.com/rsm-wew068/music-generation.git)
-
-## 📊 Portfolio Features
-- **Notion-inspired design** with clean, modern aesthetics
-- **Interactive navigation** with smooth animations
-- **Responsive layout** optimized for all devices
-- **Project showcases** with detailed technical descriptions
-- **Professional timeline** with current position highlighting
-- **Tech stack visualization** and achievement highlights
-
-## 🛠️ Portfolio Tech Stack
-- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
-- **Design**: Inter font, CSS Grid/Flexbox, CSS animations
-- **Hosting**: GitHub Pages
-- **Development**: Python HTTP server for local testing
-
-## 🚀 Local Development
-
-To run the portfolio locally:
-
-```bash
-# Clone the repository
-git clone https://github.com/rsm-wew068/rsm-wew068.github.io.git
-cd rsm-wew068.github.io
-
-# Start local server
-python3 -m http.server 8000
-
-# Open in browser
-# Navigate to http://localhost:8000
-```
-
-## 📱 Connect With Me
-- **Email**: [wew068@ucsd.edu](mailto:wew068@ucsd.edu)
-- **LinkedIn**: [wei-hsien-wang-b21922230](https://linkedin.com/in/wei-hsien-wang-b21922230)
-- **GitHub**: [@rsm-wew068](https://github.com/rsm-wew068)
-- **Hugging Face**: [rsm-wew068](https://huggingface.co/rsm-wew068)
-- **Tableau**: [Rachel Wang](https://public.tableau.com/app/profile/rachel.wang2435/vizzes)
-
-## 🏅 Certifications
-- AWS Certified Cloud Practitioner
-- Microsoft Certified: Azure Fundamentals
-- IBM Deep Learning Essentials
-- SAS Cortex Participant
-
----
-
-**📄 License**: MIT License  
-**⭐ Star this repo** if you find my portfolio inspiring!
-
-*Last updated: August 2025*
-
 ---
 
 ## 🧪 Applied Modeling Projects
@@ -166,17 +111,32 @@ Designed and implemented advanced SQL and ETL workflows across PostgreSQL and Sn
 
 ---
 
-### [📊 Tableau Public Profile](https://public.tableau.com/app/profile/rachel.wang2435/vizzes)
-Interactive dashboards tracking financial KPIs, segmentation insights, and product trends.
+## 📊 Portfolio Features
+- **Notion-inspired design** with clean, modern aesthetics
+- **Interactive navigation** with smooth animations
+- **Responsive layout** optimized for all devices
+- **Project showcases** with detailed technical descriptions
+- **Professional timeline** with current position highlighting
+- **Tech stack visualization** and achievement highlights
+
+## 🛠️ Portfolio Tech Stack
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
+- **Design**: Inter font, CSS Grid/Flexbox, CSS animations
+- **Hosting**: GitHub Pages
+- **Development**: Python HTTP server for local testing
 
 ---
 
-## 🔗 Profiles
-
-- 🤗 [Hugging Face](https://huggingface.co/rsm-wew068)
-- 🧮 [Tableau Public](https://public.tableau.com/app/profile/rachel.wang2435/vizzes)
+## 📱 Connect With Me
+- **Email**: [wew068@ucsd.edu](mailto:wew068@ucsd.edu)
+- **LinkedIn**: [wei-hsien-wang-b21922230](https://linkedin.com/in/wei-hsien-wang-b21922230)
+- **GitHub**: [@rsm-wew068](https://github.com/rsm-wew068)
+- **Hugging Face**: [rsm-wew068](https://huggingface.co/rsm-wew068)
+- **Tableau**: [Rachel Wang](https://public.tableau.com/app/profile/rachel.wang2435/vizzes)
 
 ---
 
-## Certificate
-AWS Certified Cloud Practitioner, Introducing Generative AI with AWS, Microsoft Certified: Azure Fundamentals, SAS Cortex Participant, IBM Deep Learning Essentials
+**📄 License**: MIT License  
+**⭐ Star this repo** if you find my portfolio inspiring!
+
+*Last updated: August 2025*
