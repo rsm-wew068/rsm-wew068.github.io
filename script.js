@@ -6,7 +6,32 @@ document.addEventListener('DOMContentLoaded', function() {
     initAnimations();
     initThemeToggle();
     initScrollEffects();
+    initProfileImage();
 });
+
+// Profile image loading
+function initProfileImage() {
+    const profileImage = document.querySelector('.profile-image');
+    const fallbackIcon = document.querySelector('.profile-fallback');
+    
+    if (profileImage) {
+        profileImage.addEventListener('load', function() {
+            console.log('Profile image loaded successfully');
+            this.style.display = 'block';
+            if (fallbackIcon) fallbackIcon.style.display = 'none';
+        });
+        
+        profileImage.addEventListener('error', function() {
+            console.log('Profile image failed to load, showing fallback');
+            this.style.display = 'none';
+            if (fallbackIcon) fallbackIcon.style.display = 'flex';
+        });
+        
+        // Force reload the image with cache busting
+        const timestamp = new Date().getTime();
+        profileImage.src = `./profile-photo.jpg?v=${timestamp}`;
+    }
+}
 
 // Navigation functionality
 function initNavigation() {
