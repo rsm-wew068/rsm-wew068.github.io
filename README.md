@@ -1,33 +1,91 @@
-# 📁 Wei-Hsien (Rachel) Wang – Data Science & GenAI Portfolio
+# 🌐 Wei-Hsien (Rachel) Wang - Portfolio Website
 
-### Welcome to my portfolio!
+[![Portfolio Status](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://rsm-wew068.github.io)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue)](https://pages.github.com/)
 
-I'm a Master of Science in Business Analytics student at the Rady School of Management, UC San Diego (graduating Dec 2025), with a strong foundation in machine learning, NLP, data engineering, and cloud technologies. I have hands-on experience in building end-to-end machine learning systems, scalable data pipelines, and AI-driven applications. My projects span various domains including recruitment, task management, and personalized recommendations, showcasing my ability to deliver impactful solutions using cutting-edge technologies.
+**AI Engineer | Data Science & GenAI Specialist | MS Business Analytics @ UC San Diego**
 
 ---
 
-## My Expertise
+## 🚀 Live Portfolio
+**Visit my interactive portfolio:** [https://rsm-wew068.github.io](https://rsm-wew068.github.io)
 
-From October 2023 to March 2024, I conducted [research on data-driven digital transformation](https://github.com/rsm-wew068/research-paper.git), developing the PAD (Prediction And Decision) methodology to bridge machine learning predictions with business strategy implementation. Using RFM analysis and supervised learning algorithms, I built logistic and linear regression models achieving 85.2% accuracy and R² of 0.713, processing 54,000+ transaction records. I presented findings at the 2024 International Conference on Big Data and Enterprise Resource Management, demonstrating automated marketing strategies and ROI improvement through targeted customer segmentation.
+## 👩‍💼 About Me
+I'm currently an **AI Engineer at TSTI** and a Master of Science in Business Analytics student at UC San Diego (graduating Dec 2025). I specialize in machine learning, NLP, data engineering, and generative AI technologies, with hands-on experience building end-to-end ML systems and scalable data pipelines.
 
-From September to December 2023, I worked as a Finance Intern at Virbac in Taipei, where I used SQL to extract and clean financial data, enabling accurate reporting across Asian branches. I also developed Tableau dashboards that allowed senior leadership to visualize financial KPIs more efficiently, enhancing both ad hoc report accuracy and speed. Additionally, I regularly used Excel and PivotTables to validate figures and streamline financial reporting processes.
+## 🎯 Expertise
+- **AI/ML Engineering**: Production-grade AI systems, LangGraph, GraphRAG
+- **Generative AI**: GPT-4, LLaMA, Gemini APIs, RAG implementations
+- **Data Engineering**: PostgreSQL, Neo4j, Snowflake, AWS EMR, PySpark
+- **Machine Learning**: XGBoost, Neural Networks, NLP, Computer Vision
+- **Cloud Technologies**: AWS, Azure, Docker, SageMaker
 
-Earlier, from September 2022 to January 2023, I served as a Teaching Assistant at Soochow University, where I led sentiment analysis and text mining in R on visitor reviews for the National Museum of History, uncovering key themes during its renovation. I applied TF-IDF to prioritize feedback, contributing to a 10% improvement in museum services, and supported students in data analysis while fostering an inclusive learning environment.
+## 🏆 Featured Projects
 
-Prior to that, I interned as a Data Analyst at Growth Strategy in Taipei from June to August 2022. There, I performed competitive and sentiment analysis on online reviews to support an emerging skincare brand's market strategy. Using Python and R, I identified customer pain points and refined STP targeting, delivering insights that guided ad targeting and increased customer acquisition by 15% in Q3.
+### 🚀 AI-Driven Task Management System (Capstone)
+**Technologies**: LangGraph, GraphRAG, GPT-4, PostgreSQL, Neo4j, FAISS  
+Production-grade AI agent processing Enron emails with human-in-the-loop validation and explainable GraphRAG answers.  
+[🔗 Repository](https://github.com/rsm-wew068/graph-ai-task-manager.git)
 
-## 🧠 AI Agents
+### 🌍 AI Recruitment Hub
+**Technologies**: LLaMA, Gemini APIs, Python Shiny, Docker  
+Full-stack system automating hiring lifecycle from resume parsing to offer generation.  
+[🔗 Repository](https://github.com/rsm-wew068/ai-recruitment-hub.git)
 
-### 🚀 [Capstone Project: AI-driven Custom Solutions for Financial Services Institutions](https://github.com/rsm-wew068/graph-ai-task-manager.git)
-Developed a production-grade AI task agent using LangGraph, GraphRAG, OpenAI embeddings. Parsed Enron emails into normalized structured data (PostgreSQL), extracted task entities (including owner, sender, due date, priority identification, spam detection, and confidence scoring) with RAG (GPT-4 using semantic retrieval (FAISS)), and stored relationships in a bi-directional Neo4j task graph. Built a GraphRAG-based Q&A chatbot with full graph traversal and fallback scoring. Enabled explainable answers via 3-layered output: subgraph, response, and RAGAS score. Implemented LangSmith debugging and tracing and pause/resume logic for human-in-the-loop validation. Delivered Neo4j Aurora dashboard with AI-powered task management insights.
-Team Lead: Wei-Hsien (Rachel) Wang (stakeholder communications, weekly task assignments, team management, prompt engineering, backend and frontend UI design)
-Team Members: Wenxin Xu (task extraction), Yijiang Qian (owner/collaborators extraction), Shu Zhao (doc creation)
-Team Advisor: Kathleen Maley
-Sponsored by: Praxis Solutions
+### 🎼 Machine Learning for Music
+**Technologies**: LSTM, Transformers, REMI Tokenization, Diffusion Models  
+Complete music AI pipeline from MIDI classification to generative composition.  
+[🔗 Repository](https://github.com/rsm-wew068/music-generation.git)
 
-### 🌍 [Deep Learning and GenAI for Business](https://github.com/rsm-wew068/ai-recruitment-hub.git)
-Built a full-stack AI Recruitment System to automate the hiring lifecycle from resume parsing to offer letter generation. Integrated LLaMA and Gemini APIs for summarizing candidate fit, generating interview emails, and drafting contracts. Delivered a Shiny for Python UI with visual analytics, Calendly-based scheduling, and PDF generation, containerized via Docker for deployment.
-Authored by Ryosuke Aoguchi, Nicole Ou, Wei-Hsien (Rachel) Wang.
+## 📊 Portfolio Features
+- **Notion-inspired design** with clean, modern aesthetics
+- **Interactive navigation** with smooth animations
+- **Responsive layout** optimized for all devices
+- **Project showcases** with detailed technical descriptions
+- **Professional timeline** with current position highlighting
+- **Tech stack visualization** and achievement highlights
+
+## 🛠️ Portfolio Tech Stack
+- **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
+- **Design**: Inter font, CSS Grid/Flexbox, CSS animations
+- **Hosting**: GitHub Pages
+- **Development**: Python HTTP server for local testing
+
+## 🚀 Local Development
+
+To run the portfolio locally:
+
+```bash
+# Clone the repository
+git clone https://github.com/rsm-wew068/rsm-wew068.github.io.git
+cd rsm-wew068.github.io
+
+# Start local server
+python3 -m http.server 8000
+
+# Open in browser
+# Navigate to http://localhost:8000
+```
+
+## 📱 Connect With Me
+- **Email**: [wew068@ucsd.edu](mailto:wew068@ucsd.edu)
+- **LinkedIn**: [wei-hsien-wang-b21922230](https://linkedin.com/in/wei-hsien-wang-b21922230)
+- **GitHub**: [@rsm-wew068](https://github.com/rsm-wew068)
+- **Hugging Face**: [rsm-wew068](https://huggingface.co/rsm-wew068)
+- **Tableau**: [Rachel Wang](https://public.tableau.com/app/profile/rachel.wang2435/vizzes)
+
+## 🏅 Certifications
+- AWS Certified Cloud Practitioner
+- Microsoft Certified: Azure Fundamentals
+- IBM Deep Learning Essentials
+- SAS Cortex Participant
+
+---
+
+**📄 License**: MIT License  
+**⭐ Star this repo** if you find my portfolio inspiring!
+
+*Last updated: August 2025*
 
 ---
 

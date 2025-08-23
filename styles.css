@@ -91,6 +91,22 @@ body {
     border-color: var(--accent-color);
 }
 
+.profile-fallback {
+    font-size: 4rem;
+    color: var(--text-secondary);
+    background: var(--bg-secondary);
+    padding: 1rem;
+    border-radius: 50%;
+    display: none;
+    width: 6rem;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
 .profile-avatar i {
     font-size: 4rem;
     color: var(--text-secondary);
@@ -270,19 +286,30 @@ body {
 .timeline-marker.current {
     background: var(--success-color);
     animation: pulse 2s infinite;
-    box-shadow: 0 0 0 0 rgba(15, 123, 15, 0.7);
+    box-shadow: 0 0 0 4px rgba(15, 123, 15, 0.3);
 }
 
 @keyframes pulse {
     0% {
-        box-shadow: 0 0 0 0 rgba(15, 123, 15, 0.7);
+        box-shadow: 0 0 0 0 rgba(15, 123, 15, 0.4);
     }
     70% {
-        box-shadow: 0 0 0 10px rgba(15, 123, 15, 0);
+        box-shadow: 0 0 0 8px rgba(15, 123, 15, 0);
     }
     100% {
         box-shadow: 0 0 0 0 rgba(15, 123, 15, 0);
     }
+}
+
+.current-role {
+    background: linear-gradient(135deg, var(--success-color), #0a5d0a);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .timeline-content {
