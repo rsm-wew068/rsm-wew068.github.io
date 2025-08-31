@@ -377,14 +377,20 @@ body {
 }
 
 .project-card:hover {
-    transform: translateY(-2px);
-    box-shadow: var(--shadow-lg);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(74, 44, 42, 0.25);
     border-color: var(--accent-color);
 }
 
 .project-card.featured {
-    border: 2px solid var(--accent-color) !important;
-    background: #F2E9E7 !important;
+    border: 2px solid var(--accent-color);
+    background: var(--bg-tertiary);
+}
+
+.project-card.featured:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 30px rgba(160, 97, 106, 0.3);
+    border-color: var(--accent-hover);
 }
 
 .project-header {
@@ -398,6 +404,11 @@ body {
     font-size: 2rem;
     flex-shrink: 0;
     margin-top: 0.25rem;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover .project-icon {
+    transform: scale(1.1) rotate(5deg);
 }
 
 .project-title-section {
@@ -420,11 +431,12 @@ body {
 .project-link {
     color: var(--text-muted);
     font-size: 1.25rem;
-    transition: color 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 .project-link:hover {
     color: var(--accent-color);
+    transform: scale(1.15);
 }
 
 .project-description {
@@ -452,6 +464,13 @@ body {
     border-radius: var(--radius);
     font-size: var(--font-size-sm);
     border: 1px solid var(--border-color);
+    transition: all 0.2s ease;
+}
+
+.highlight-item:hover {
+    background: var(--bg-tertiary);
+    border-color: var(--accent-color);
+    transform: translateY(-1px);
 }
 
 .highlight-item i {
