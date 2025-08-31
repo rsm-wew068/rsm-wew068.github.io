@@ -7,20 +7,20 @@
 }
 
 :root {
-    /* Color palette inspired by Notion */
+    /* Pink-based color palette */
     --bg-primary: #ffffff;
-    --bg-secondary: #f7f6f3;
-    --bg-tertiary: #f1f1ef;
-    --text-primary: #37352f;
-    --text-secondary: #6f6e69;
-    --text-muted: #9b9a97;
-    --border-color: #e9e9e7;
-    --accent-color: #2383e2;
-    --accent-hover: #1a73d1;
-    --success-color: #0f7b0f;
-    --warning-color: #d9730d;
-    --shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-    --shadow-lg: 0 4px 12px rgba(0, 0, 0, 0.15);
+    --bg-secondary: #fdf2f8;
+    --bg-tertiary: #fce7f3;
+    --text-primary: #374151;
+    --text-secondary: #6b7280;
+    --text-muted: #9ca3af;
+    --border-color: #f3e8ff;
+    --accent-color: #ec4899;
+    --accent-hover: #db2777;
+    --success-color: #059669;
+    --warning-color: #d97706;
+    --shadow: 0 1px 3px rgba(236, 72, 153, 0.1);
+    --shadow-lg: 0 4px 12px rgba(236, 72, 153, 0.15);
     --radius: 6px;
     --radius-lg: 8px;
     
@@ -284,9 +284,9 @@ body {
 }
 
 .timeline-marker.current {
-    background: var(--success-color);
+    background: var(--accent-color);
     animation: pulse 2s infinite;
-    box-shadow: 0 0 0 4px rgba(15, 123, 15, 0.3);
+    box-shadow: 0 0 0 4px rgba(236, 72, 153, 0.3);
 }
 
 .timeline-content {
@@ -361,7 +361,8 @@ body {
 
 .project-card.featured {
     border: 2px solid var(--accent-color);
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, #f0f8ff 100%);
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, #fdf2f8 50%, #fce7f3 100%);
+    box-shadow: 0 4px 20px rgba(236, 72, 153, 0.1);
 }
 
 .project-header {
@@ -490,12 +491,19 @@ body {
 
 .tech-tag {
     padding: 0.25rem 0.75rem;
-    background: var(--accent-color);
+    background: linear-gradient(135deg, var(--accent-color), #f472b6);
     color: white;
     border-radius: 20px;
     font-size: var(--font-size-xs);
     font-weight: 500;
     white-space: nowrap;
+    box-shadow: 0 2px 4px rgba(236, 72, 153, 0.2);
+    transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(236, 72, 153, 0.3);
 }
 
 /* Education */
