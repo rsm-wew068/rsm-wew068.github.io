@@ -11,7 +11,7 @@
 **Visit my interactive portfolio:** [https://rsm-wew068.github.io](https://rsm-wew068.github.io)
 
 ## 👩‍💼 About Me
-I'm currently an **AI Engineer at TSTI** and a Master of Science in Business Analytics student at UC San Diego (graduating Dec 2025). I specialize in machine learning, NLP, data engineering, and generative AI technologies, with hands-on experience building end-to-end ML systems and scalable data pipelines.
+I'm currently a Master of Science in Business Analytics student at UC San Diego (graduating Dec 2025). I specialize in machine learning, NLP, data engineering, and generative AI technologies, with hands-on experience building end-to-end ML systems and scalable data pipelines.
 
 ## 🎯 Expertise
 - **AI/ML Engineering**: Production-grade AI systems, LangGraph, GraphRAG
