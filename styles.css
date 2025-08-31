@@ -383,8 +383,8 @@ body {
 }
 
 .project-card.featured {
-    border: 2px solid var(--accent-color);
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, #F8F2F1 100%);
+    border: 2px solid var(--accent-color) !important;
+    background: #F2E9E7 !important;
 }
 
 .project-header {

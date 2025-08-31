@@ -3,7 +3,7 @@
 [![Portfolio Status](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://rsm-wew068.github.io)
 [![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue)](https://pages.github.com/)
 
-**AI Engineer | Data Science & GenAI Specialist | MS Business Analytics @ UC San Diego**
+**Data Scientist | Data Science & GenAI Specialist | MS Business Analytics @ UC San Diego**
 
 ---
 
