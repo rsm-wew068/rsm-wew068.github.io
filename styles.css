@@ -7,20 +7,20 @@
 }
 
 :root {
-    /* Pink-based color palette */
-    --bg-primary: #ffffff;
-    --bg-secondary: #fdf2f8;
-    --bg-tertiary: #fce7f3;
-    --text-primary: #374151;
-    --text-secondary: #6b7280;
-    --text-muted: #9ca3af;
-    --border-color: #f3e8ff;
-    --accent-color: #ec4899;
-    --accent-hover: #db2777;
-    --success-color: #059669;
-    --warning-color: #d97706;
-    --shadow: 0 1px 3px rgba(236, 72, 153, 0.1);
-    --shadow-lg: 0 4px 12px rgba(236, 72, 153, 0.15);
+    /* Pink-themed color palette */
+    --bg-primary: #D4B8B4;
+    --bg-secondary: #E8D5D2;
+    --bg-tertiary: #F2E9E7;
+    --text-primary: #4A2C2A;
+    --text-secondary: #6B4C47;
+    --text-muted: #8B6F6A;
+    --border-color: #C4A09C;
+    --accent-color: #A0616A;
+    --accent-hover: #8B4A54;
+    --success-color: #7A5A47;
+    --warning-color: #B8704A;
+    --shadow: 0 1px 3px rgba(74, 44, 42, 0.15);
+    --shadow-lg: 0 4px 12px rgba(74, 44, 42, 0.2);
     --radius: 6px;
     --radius-lg: 8px;
     
@@ -284,9 +284,32 @@ body {
 }
 
 .timeline-marker.current {
-    background: var(--accent-color);
+    background: var(--success-color);
     animation: pulse 2s infinite;
-    box-shadow: 0 0 0 4px rgba(236, 72, 153, 0.3);
+    box-shadow: 0 0 0 4px rgba(122, 90, 71, 0.3);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(122, 90, 71, 0.4);
+    }
+    70% {
+        box-shadow: 0 0 0 8px rgba(122, 90, 71, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(122, 90, 71, 0);
+    }
+}
+
+.current-role {
+    background: linear-gradient(135deg, var(--success-color), #5A3F33);
+    color: white;
+    padding: 0.25rem 0.75rem;
+    border-radius: 15px;
+    font-size: var(--font-size-xs);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
 }
 
 .timeline-content {
@@ -361,8 +384,7 @@ body {
 
 .project-card.featured {
     border: 2px solid var(--accent-color);
-    background: linear-gradient(135deg, var(--bg-secondary) 0%, #fdf2f8 50%, #fce7f3 100%);
-    box-shadow: 0 4px 20px rgba(236, 72, 153, 0.1);
+    background: linear-gradient(135deg, var(--bg-secondary) 0%, #f0f8ff 100%);
 }
 
 .project-header {
@@ -491,19 +513,12 @@ body {
 
 .tech-tag {
     padding: 0.25rem 0.75rem;
-    background: linear-gradient(135deg, var(--accent-color), #f472b6);
+    background: var(--accent-color);
     color: white;
     border-radius: 20px;
     font-size: var(--font-size-xs);
     font-weight: 500;
     white-space: nowrap;
-    box-shadow: 0 2px 4px rgba(236, 72, 153, 0.2);
-    transition: all 0.3s ease;
-}
-
-.tech-tag:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(236, 72, 153, 0.3);
 }
 
 /* Education */
