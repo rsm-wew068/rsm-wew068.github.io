@@ -302,7 +302,7 @@ body {
 }
 
 .current-role {
-    background: linear-gradient(135deg, var(--success-color), #5A3F33);
+    background: linear-gradient(135deg, var(--success-color), var(--bg-tertiary));
     color: white;
     padding: 0.25rem 0.75rem;
     border-radius: 15px;
