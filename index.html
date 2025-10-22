@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wei-Hsien (Rachel) Wang - Data Science & GenAI Portfolio</title>
+    <title>Wei-Hsien (Rachel) Wang — Machine Learning Engineer (LLM Systems & MLOps)</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="description" content="Machine Learning Engineer — I build production LLM systems (RAG, ranking, CI/CD, evaluation). Projects: AI music search, recruitment hub, GraphRAG task manager.">
+    <meta property="og:title" content="Wei-Hsien (Rachel) Wang — ML Engineer">
+    <meta property="og:description" content="Production ML/LLM systems: retrieval, ranking, CI/CD, evaluation.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://rsm-wew068.github.io/profile-photo.jpg">
+    <meta name="twitter:card" content="summary_large_image">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -15,29 +21,29 @@
             <div class="hero-content">
                 <div class="profile-section">
                     <div class="profile-avatar">
-                        <img src="./profile-photo.jpg" alt="Wei-Hsien (Rachel) Wang" class="profile-image">
+                        <img src="./profile-photo.jpg" alt="Wei-Hsien (Rachel) Wang" class="profile-image" loading="lazy">
                     </div>
                     <div class="profile-info">
                         <h1 class="profile-name">Wei-Hsien (Rachel) Wang</h1>
-                        <p class="profile-title">Data Science & GenAI Portfolio</p>
+                        <p class="profile-title">Machine Learning Engineer — LLM Systems & MLOps</p>
                         <div class="profile-links">
                             <a href="mailto:wew068@ucsd.edu" class="profile-link">
                                 <i class="fas fa-envelope"></i>
                                 wew068@ucsd.edu
                             </a>
-                            <a href="https://linkedin.com/in/wei-hsien-wang-b21922230" class="profile-link" target="_blank">
+                            <a href="https://linkedin.com/in/wei-hsien-wang-b21922230" class="profile-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-linkedin"></i>
                                 LinkedIn
                             </a>
-                            <a href="https://github.com/rsm-wew068" class="profile-link" target="_blank">
+                            <a href="https://github.com/rsm-wew068" class="profile-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                                 GitHub
                             </a>
-                            <a href="https://huggingface.co/rsm-wew068" class="profile-link" target="_blank">
+                            <a href="https://huggingface.co/rsm-wew068" class="profile-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fas fa-robot"></i>
                                 Hugging Face
                             </a>
-                            <a href="https://public.tableau.com/app/profile/rachel.wang2435/vizzes" class="profile-link" target="_blank">
+                            <a href="https://public.tableau.com/app/profile/rachel.wang2435/vizzes" class="profile-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fas fa-chart-bar"></i>
                                 Tableau
                             </a>
@@ -45,16 +51,25 @@
                     </div>
                 </div>
                 <div class="hero-description">
-                    <p>Master of Science in Business Analytics student at UC San Diego (graduating Dec 2025). Experienced in machine learning, NLP, data engineering, and cloud technologies. Specialized in building end-to-end ML systems, scalable data pipelines, and AI-driven applications across recruitment, task management, and personalized recommendations.</p>
+                    <p>MSBA @ UC San Diego (Dec 2025). I build production ML/LLM systems — retrieval (RAG, vector DBs), ranking and evaluation — backed by CI/CD and cloud serving (Vertex AI, Cloud Run, SageMaker). Previously reduced inference cost by ~50% and latency by ~45% on an enterprise AI service.</p>
                 </div>
+            </div>
+        </header>
+
+        <section class="skills-strip">
+            <div class="skills-row"><strong>LLM Ops:</strong> RAG, FAISS/Vector DBs, RAGAS evaluation, prompt safety</div>
+            <div class="skills-row"><strong>MLOps:</strong> CI/CD (Cloud Build, GitHub Actions, GitLab), Docker, Cloud Run, Vertex AI, SageMaker</div>
+            <div class="skills-row"><strong>Data/Infra:</strong> PySpark, Snowflake, PostgreSQL, Redis, Neo4j</div>
+            <div class="skills-row"><strong>Serving/Exp:</strong> FastAPI, streaming, A/B testing, caching</div>
+        </section>
             </div>
         </header>
 
         <!-- Navigation -->
         <nav class="nav-tabs">
-            <button class="nav-tab active" data-section="experience">💼 Experience</button>
-            <button class="nav-tab" data-section="ai-agents">🧠 AI Agents</button>
-            <button class="nav-tab" data-section="modeling">🧪 Applied Modeling</button>
+            <button class="nav-tab active" data-section="ai-agents">🧠 LLM Systems</button>
+            <button class="nav-tab" data-section="experience">💼 Experience</button>
+            <button class="nav-tab" data-section="modeling">🧪 Modeling & Experiments</button>
             <button class="nav-tab" data-section="data-engineering">📊 Data Engineering</button>
             <button class="nav-tab" data-section="education">🎓 Education</button>
             <button class="nav-tab" data-section="certificates">🏆 Certificates</button>
@@ -63,7 +78,7 @@
         <!-- Content Sections -->
         <main class="content">
             <!-- Experience Section -->
-            <section id="experience" class="section active">
+            <section id="experience" class="section">
                 <h2 class="section-title">
                     <i class="fas fa-briefcase"></i>
                     Professional Experience
@@ -104,10 +119,10 @@
                         <div class="timeline-content">
                             <div class="timeline-header">
                                 <h3>Data Scientist
-                                    <a href="https://github.com/rsm-wew068/graph-ai-task-manager.git" class="project-link" target="_blank">
+                                    <a href="https://github.com/rsm-wew068/graph-ai-task-manager.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                         <i class="fab fa-github"></i>
                                     </a>
-                                    <a href="https://huggingface.co/spaces/rsm-wew068/automated-task-manager" class="project-link" target="_blank">
+                                    <a href="https://huggingface.co/spaces/rsm-wew068/automated-task-manager" class="project-link" target="_blank" rel="noopener noreferrer">
                                         <i class="fas fa-robot"></i>
                                     </a>
                                 </h3>
@@ -140,7 +155,7 @@
                         <div class="timeline-content">
                             <div class="timeline-header">
                                 <h3>Research Assistant
-                                    <a href="https://github.com/rsm-wew068/research-paper.git" class="project-link" target="_blank">
+                                    <a href="https://github.com/rsm-wew068/research-paper.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                         <i class="fab fa-github"></i>
                                     </a>
                                 </h3>
@@ -240,10 +255,10 @@
             </section>
 
             <!-- AI Agents Section -->
-            <section id="ai-agents" class="section">
+            <section id="ai-agents" class="section active">
                 <h2 class="section-title">
                     <i class="fas fa-robot"></i>
-                    AI Agents & GenAI Projects
+                    LLM Systems & MLOps
                 </h2>
                 
                 <div class="project-grid">
@@ -254,7 +269,7 @@
                                 <h3>AI Music Discovery Engine</h3>
                                 <span class="project-type">AI Accelerate: Unlocking New Frontiers</span>
                             </div>
-                            <a href="https://github.com/rsm-wew068/hack-mvp.git" class="project-link" target="_blank">
+                            <a href="https://github.com/rsm-wew068/hack-mvp.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -302,7 +317,7 @@
                                 <h3>AI Recruitment Hub</h3>
                                 <span class="project-type">Deep Learning & GenAI for Business</span>
                             </div>
-                            <a href="https://github.com/rsm-wew068/ai-recruitment-hub.git" class="project-link" target="_blank">
+                            <a href="https://github.com/rsm-wew068/ai-recruitment-hub.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -347,7 +362,7 @@
             <section id="modeling" class="section">
                 <h2 class="section-title">
                     <i class="fas fa-chart-line"></i>
-                    Applied Modeling Projects
+                    Modeling & Experiments
                 </h2>
                 
                 <div class="project-grid">
@@ -358,7 +373,7 @@
                                 <h3>Customer Analytics Cases</h3>
                                 <span class="project-type">Customer Analytics</span>
                             </div>
-                            <a href="https://github.com/rsm-wew068/mgta495-customer-analytics.git" class="project-link" target="_blank">
+                            <a href="https://github.com/rsm-wew068/mgta495-customer-analytics.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -410,7 +425,7 @@
                                 <h3>Generative AI & Audio Processing</h3>
                                 <span class="project-type">Machine Learning for Music</span>
                             </div>
-                            <a href="https://github.com/rsm-wew068/music-generation.git" class="project-link" target="_blank">
+                            <a href="https://github.com/rsm-wew068/music-generation.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -471,7 +486,7 @@
                                 <h3>NLP & Deep Learning</h3>
                                 <span class="project-type">Analyzing Unstructured Data</span>
                             </div>
-                            <a href="https://github.com/rsm-wew068/mgta415-unstructured-data.git" class="project-link" target="_blank">
+                            <a href="https://github.com/rsm-wew068/mgta415-unstructured-data.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -517,7 +532,7 @@
                                 <h3>Recommendation Engines</h3>
                                 <span class="project-type">Web Mining & Recommender Systems</span>
                             </div>
-                            <a href="https://github.com/rsm-wew068/mgta461-web-mining.git" class="project-link" target="_blank">
+                            <a href="https://github.com/rsm-wew068/mgta461-web-mining.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -573,7 +588,7 @@
                                 <h3>Advanced Cloud Engineering</h3>
                                 <span class="project-type">Scalable Analytics</span>
                             </div>
-                            <a href="https://github.com/rsm-wew068/mgta466-scalable-analytics.git" class="project-link" target="_blank">
+                            <a href="https://github.com/rsm-wew068/mgta466-scalable-analytics.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -615,7 +630,7 @@
                                 <h3>Cloud Engineering</h3>
                                 <span class="project-type">SQL & ETL</span>
                             </div>
-                            <a href="https://github.com/rsm-wew068/mgta464-sql-etl.git" class="project-link" target="_blank">
+                            <a href="https://github.com/rsm-wew068/mgta464-sql-etl.git" class="project-link" target="_blank" rel="noopener noreferrer">
                                 <i class="fab fa-github"></i>
                             </a>
                         </div>
@@ -787,8 +802,8 @@
                 <p>&copy; 2025 Wei-Hsien (Rachel) Wang. All rights reserved.</p>
                 <div class="footer-links">
                     <a href="mailto:wew068@ucsd.edu">Contact</a>
-                    <a href="https://github.com/rsm-wew068" target="_blank">GitHub</a>
-                    <a href="https://linkedin.com/in/wei-hsien-wang-b21922230" target="_blank">LinkedIn</a>
+                    <a href="https://github.com/rsm-wew068" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    <a href="https://linkedin.com/in/wei-hsien-wang-b21922230" target="_blank" rel="noopener noreferrer">LinkedIn</a>
                 </div>
             </div>
         </footer>
@@ -796,4 +811,19 @@
 
     <script src="script.js"></script>
 </body>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Wei-Hsien (Rachel) Wang",
+  "jobTitle": "Machine Learning Engineer",
+  "email": "mailto:wew068@ucsd.edu",
+  "url": "https://rsm-wew068.github.io",
+  "sameAs": [
+    "https://linkedin.com/in/wei-hsien-wang-b21922230",
+    "https://github.com/rsm-wew068",
+    "https://huggingface.co/rsm-wew068"
+  ]
+}
+</script>
 </html>
