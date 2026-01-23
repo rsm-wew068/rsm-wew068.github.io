@@ -112,7 +112,6 @@ Designed and implemented advanced SQL and ETL workflows across PostgreSQL and Sn
 ---
 
 ## 📊 Portfolio Features
-- **Notion-inspired design** with clean, modern aesthetics
 - **Interactive navigation** with smooth animations
 - **Responsive layout** optimized for all devices
 - **Project showcases** with detailed technical descriptions
