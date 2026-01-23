@@ -3,7 +3,7 @@
 [![Portfolio Status](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://portfolio-site-554933605441.us-central1.run.app)
 [![Cloud Run](https://img.shields.io/badge/Hosted%20on-Google%20Cloud%20Run-4285F4?logo=google-cloud&logoColor=white)](https://cloud.google.com/run)
 
-**Data Scientist | Data Science & GenAI Specialist | MS Business Analytics @ UC San Diego**
+**AI Engineer | MS Business Analytics @ UC San Diego**
 
 ---
 
@@ -138,4 +138,4 @@ Designed and implemented advanced SQL and ETL workflows across PostgreSQL and Sn
 **📄 License**: MIT License  
 **⭐ Star this repo** if you find my portfolio inspiring!
 
-*Last updated: August 2025*
+*Last updated: January 2026*
