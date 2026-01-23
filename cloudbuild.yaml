@@ -33,3 +33,6 @@ steps:
 # Store the image reference for traceability
 images:
   - "us-central1-docker.pkg.dev/weihsien-wang-portfolio/portfolio-repo/portfolio:$COMMIT_SHA"
+
+options:
+  logging: CLOUD_LOGGING_ONLY
