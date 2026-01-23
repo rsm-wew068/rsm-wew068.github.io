@@ -1,14 +1,14 @@
 # 🌐 Wei-Hsien (Rachel) Wang - Portfolio Website
 
-[![Portfolio Status](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://rsm-wew068.github.io)
-[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue)](https://pages.github.com/)
+[![Portfolio Status](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://portfolio-site-554933605441.us-central1.run.app)
+[![Cloud Run](https://img.shields.io/badge/Hosted%20on-Google%20Cloud%20Run-4285F4?logo=google-cloud&logoColor=white)](https://cloud.google.com/run)
 
 **Data Scientist | Data Science & GenAI Specialist | MS Business Analytics @ UC San Diego**
 
 ---
 
 ## 🚀 Live Portfolio
-**Visit my interactive portfolio:** [https://rsm-wew068.github.io](https://rsm-wew068.github.io)
+**Visit my interactive AI-powered portfolio:** [https://portfolio-site-554933605441.us-central1.run.app](https://portfolio-site-554933605441.us-central1.run.app)
 
 ## 👩‍💼 About Me
 I'm currently a Master of Science in Business Analytics student at UC San Diego (graduating Dec 2025). I specialize in machine learning, NLP, data engineering, and generative AI technologies, with hands-on experience building end-to-end ML systems and scalable data pipelines.
