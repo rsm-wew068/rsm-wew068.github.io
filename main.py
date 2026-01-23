@@ -83,10 +83,23 @@ async def chat_endpoint(request: ChatRequest):
 
     try:
         response = chat_session.send_message(request.message)
-        return ChatResponse(response=response.text)
+        
+        # Check if response has text content
+        if response.text:
+            return ChatResponse(response=response.text)
+        else:
+            print(f"Gemini returned no text. Finish reason: {response.candidates[0].finish_reason}")
+            return ChatResponse(response="[System]: The AI thought about it but didn't have a response. Please try asking differently!")
+            
     except Exception as e:
         print(f"Error calling Gemini: {e}")
-        raise HTTPException(status_code=500, detail="I'm having trouble connecting to my brain right now. Please try again later!")
+        # If possible, print full response for debugging
+        try:
+            print(f"Full response object: {response}")
+        except:
+            pass
+            
+        return ChatResponse(response="I encountered a small hiccup processing that. Could you try asking again?")
 
 # --- Static File Serving ---
 # This must be last so it doesn't override API routes
