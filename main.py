@@ -36,13 +36,12 @@ def load_context():
     """Loads the resume and portfolio content to feed to the model."""
     context = ""
     try:
-        with open("resume.md", "r") as f:
-            context += "RESUME CONTENT:\n" + f.read() + "\n\n"
+        # Read from main.tex which contains the most accurate and detailed resume content
+        with open("main.tex", "r") as f:
+            context += "RESUME CONTENT (LaTeX Format):\n" + f.read() + "\n\n"
     except FileNotFoundError:
-        print("Warning: resume.md not found")
+        print("Warning: main.tex not found. RAM context will be empty.")
     
-    # We could also add specific project details that might not be in the short resume
-    # For now, resume.md is a good start.
     return context
 
 SYSTEM_CONTEXT = load_context()
