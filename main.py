@@ -33,14 +33,16 @@ class ChatResponse(BaseModel):
 
 # --- Load Context ---
 def load_context():
-    """Loads the resume and portfolio content to feed to the model."""
+    """Loads the portfolio content from index.html to feed to the model."""
     context = ""
     try:
-        # Read from main.tex which contains the most accurate and detailed resume content
-        with open("main.tex", "r") as f:
-            context += "RESUME CONTENT (LaTeX Format):\n" + f.read() + "\n\n"
+        with open("index.html", "r") as f:
+            # We treat the raw HTML as context. Gemini is great at understanding structural HTML.
+            content = f.read()
+            # Simple cleanup to remove excess whitespace if needed, but keeping it raw is fine for Gemini 1.5/3.0
+            context += "PORTFOLIO WEBSITE CONTENT (HTML):\\n" + content + "\\n\\n"
     except FileNotFoundError:
-        print("Warning: main.tex not found. RAM context will be empty.")
+        print("Warning: index.html not found")
     
     return context
 
@@ -52,7 +54,7 @@ Your goal is to answer questions about Rachel's professional background, skills,
 
 Rules:
 1. Speak in a professional, enthusiastic, and friendly tone (Rachel is a Data Scientist/ML Engineer).
-2. Use the "RESUME CONTENT" provided to answer questions.
+2. Use the "PORTFOLIO WEBSITE CONTENT" provided to answer questions.
 3. If the answer is not in the context, politely say you don't have that information but suggest contacting Rachel directly (wew068@ucsd.edu).
 4. Keep answers concise (under 3-4 sentences) unless the user asks for a detailed explanation.
 5. Do NOT make up facts.
