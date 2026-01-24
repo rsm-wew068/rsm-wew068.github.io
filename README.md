@@ -3,7 +3,7 @@
 [![Portfolio Status](https://img.shields.io/badge/Portfolio-Live-brightgreen)](https://portfolio-site-554933605441.us-central1.run.app)
 [![Cloud Run](https://img.shields.io/badge/Hosted%20on-Google%20Cloud%20Run-4285F4?logo=google-cloud&logoColor=white)](https://cloud.google.com/run)
 
-**AI Engineer | MS Business Analytics @ UC San Diego**
+**AI/ML Engineer | MS Business Analytics @ UC San Diego**
 
 ---
 
