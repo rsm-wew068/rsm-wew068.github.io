@@ -11,7 +11,7 @@
 **Visit my interactive AI-powered portfolio:** [https://portfolio-site-554933605441.us-central1.run.app](https://portfolio-site-554933605441.us-central1.run.app)
 
 ## 👩‍💼 About Me
-I'm a Master of Science in Business Analytics student graduating from UC San Diego in December 2025. I specialize in machine learning, NLP, data engineering, and generative AI technologies, with hands-on experience building end-to-end ML systems and scalable data pipelines.
+I'm a Master of Science in Business Analytics **graduate** from UC San Diego (Class of 2025). I specialize in machine learning, NLP, data engineering, and generative AI technologies, with hands-on experience building end-to-end ML systems and scalable data pipelines.
 
 ## 🎯 Expertise
 - **AI/ML Engineering**: Production-grade AI systems, LangGraph, GraphRAG
@@ -121,8 +121,8 @@ Designed and implemented advanced SQL and ETL workflows across PostgreSQL and Sn
 ## 🛠️ Portfolio Tech Stack
 - **Frontend**: HTML5, CSS3, JavaScript (Vanilla)
 - **Design**: Inter font, CSS Grid/Flexbox, CSS animations
-- **Hosting**: GitHub Pages
-- **Development**: Python HTTP server for local testing
+- **Hosting**: Google Cloud Run
+- **Development**: FastAPI (Python), Docker, Cloud Build
 
 ---
 
