@@ -11,7 +11,7 @@
 **Visit my interactive AI-powered portfolio:** [https://portfolio-site-554933605441.us-central1.run.app](https://portfolio-site-554933605441.us-central1.run.app)
 
 ## 👩‍💼 About Me
-I'm a Master of Science in Business Analytics student who graduated from UC San Diego in December 2025. I specialize in machine learning, NLP, data engineering, and generative AI technologies, with hands-on experience building end-to-end ML systems and scalable data pipelines.
+I'm a Master of Science in Business Analytics student graduating from UC San Diego in December 2025. I specialize in machine learning, NLP, data engineering, and generative AI technologies, with hands-on experience building end-to-end ML systems and scalable data pipelines.
 
 ## 🎯 Expertise
 - **AI/ML Engineering**: Production-grade AI systems, LangGraph, GraphRAG
@@ -22,7 +22,7 @@ I'm a Master of Science in Business Analytics student who graduated from UC San 
 
 ## 🏆 Featured Projects
 
-### 🚀 AI-Driven Task Management System (Capstone)
+### 🚀 AI-Driven Task Management System
 **Technologies**: LangGraph, GraphRAG, GPT-4, PostgreSQL, Neo4j, FAISS  
 Production-grade AI agent processing Enron emails with human-in-the-loop validation and explainable GraphRAG answers.  
 [🔗 Repository](https://github.com/rsm-wew068/graph-ai-task-manager.git)
