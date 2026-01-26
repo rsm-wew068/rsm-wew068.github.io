@@ -1,7 +1,7 @@
 *This is a submission for the [New Year, New You Portfolio Challenge Presented by Google AI](https://dev.to/challenges/new-year-new-you-google-ai-2025-12-31)*
 
 ## About Me
-Hi everyone! I'm **Wei-Hsien (Rachel) Wang**, an AI Engineer and MS in Business Analytics student at UC San Diego. I specialize in building **neuro-symbolic AI systems**, **MLOps pipelines**, and **scalable data infrastructure**.
+Hi everyone! I'm **Wei-Hsien (Rachel) Wang**, an AI Engineer and **MS in Business Analytics graduate** from UC San Diego. I specialize in building **neuro-symbolic AI systems**, **MLOps pipelines**, and **scalable data infrastructure**.
 
 For this challenge, I wanted to showcase my work not just as a static list of projects, but as an **interactive, AI-powered experience**. My goal was to build a portfolio that "talks back"—allowing recruiters and visitors to chat with an AI agent that knows my resume inside and out!
 
