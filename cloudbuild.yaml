@@ -30,7 +30,7 @@ steps:
       - "us-central1"
       - "--allow-unauthenticated"
       - "--labels"
-      - "dev-tutorial=blog-devcommunity2026"
+      - "dev-tutorial=devnewyear2026"
 
 # Store the image reference for traceability
 images:
