@@ -541,6 +541,119 @@
                             <span class="tech-tag">PDF Generation</span>
                         </div>
                     </div>
+                    <div class="project-card featured">
+                        <div class="project-header">
+                            <div class="project-icon">🔧</div>
+                            <div class="project-title-section">
+                                <h3>Eric's Auto Care — AI Assistant</h3>
+                                <span class="project-type">Small Business AI Agent</span>
+                            </div>
+                            <a href="https://small-business-agent.vercel.app" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-robot"></i>
+                            </a>
+                        </div>
+                        <div class="project-description">
+                            <p>A smart, conversational AI assistant for a local auto repair shop built with
+                                <strong>Groq (LLaMA)</strong> with tool use. Answers service questions, books
+                                appointments, and handles customer inquiries in any language.</p>
+                            <div class="project-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-tools"></i>
+                                    <span><strong>LLM Tool Use:</strong> The agent decides when to call tools — collects
+                                        required info over multiple turns, then fires <code>book_appointment</code> or
+                                        <code>submit_inquiry</code> once it has everything</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-server"></i>
+                                    <span><strong>Stateless Serverless Backend:</strong> Frontend sends full conversation
+                                        history on each request — no server-side sessions, deployed as Python serverless
+                                        functions on Vercel</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-database"></i>
+                                    <span><strong>Supabase Persistence:</strong> PostgreSQL storage for appointments,
+                                        inquiries, and chat logs with service role key kept server-side only</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-shield-alt"></i>
+                                    <span><strong>Graceful Validation:</strong> If the LLM calls a tool with missing
+                                        fields, the tool returns a human-readable follow-up instead of crashing — the agent
+                                        loop recovers and asks for the missing info</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-mobile-alt"></i>
+                                    <span><strong>Mobile-First + Analytics:</strong> Responsive React + Tailwind chat UI
+                                        with an analytics dashboard tracking messages, sessions, popular services, and daily
+                                        activity</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">LLaMA</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Vite</span>
+                            <span class="tech-tag">Tailwind CSS</span>
+                            <span class="tech-tag">Supabase</span>
+                            <span class="tech-tag">Vercel Serverless</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                    </div>
+                    <div class="project-card featured">
+                        <div class="project-header">
+                            <div class="project-icon">🎙️</div>
+                            <div class="project-title-section">
+                                <h3>Live Suggestion Agent</h3>
+                                <span class="project-type">Real-Time AI Meeting Copilot</span>
+                            </div>
+                            <a href="https://twinmind-live-suggestion-liart.vercel.app" class="project-link" target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-external-link-alt"></i>
+                            </a>
+                        </div>
+                        <div class="project-description">
+                            <p>A web app that listens to live audio from the user's mic and continuously surfaces
+                                <strong>3 AI-powered suggestions</strong> based on what's being said. Clicking a suggestion
+                                opens a detailed answer in a chat panel. Built with <strong>Groq Whisper + GPT-OSS</strong>
+                                on Next.js 16.</p>
+                            <div class="project-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-microphone"></i>
+                                    <span><strong>Real-Time Transcription:</strong> Browser MediaRecorder captures audio in
+                                        30-second chunks → Groq Whisper returns text with timestamps</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span><strong>Context-Aware Suggestions:</strong> Classifies conversation state
+                                        (QUESTION_ASKED, CLAIM_MADE, TOPIC_SHIFT, etc.) and varies suggestion types
+                                        accordingly — no generic filler</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-filter"></i>
+                                    <span><strong>Two-Layer Deduplication:</strong> Prompt-level avoidance of previous
+                                        suggestions + client-side Jaccard word-overlap filtering (>70% threshold) to
+                                        prevent repetition</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-comments"></i>
+                                    <span><strong>Streaming Chat Panel:</strong> Structured multi-turn message history sent
+                                        to Groq API — tokens stream in real-time for responsive answers</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-file-export"></i>
+                                    <span><strong>Session Export:</strong> Full transcript, suggestion batches, and chat
+                                        history downloadable as JSON with timestamps</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tech-stack">
+                            <span class="tech-tag">Next.js 16</span>
+                            <span class="tech-tag">Groq Whisper</span>
+                            <span class="tech-tag">GPT-OSS</span>
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Streaming API</span>
+                            <span class="tech-tag">MediaRecorder</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                    </div>
                 </div>
             </div>
             <!-- Applied Modeling Section -->
