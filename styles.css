@@ -71,13 +71,13 @@ body {
 .profile-avatar {
     flex-shrink: 0;
     position: relative;
-    width: 6rem;
-    height: 6rem;
+    width: 7.5rem;
+    height: 7.5rem;
 }
 
 .profile-image {
-    width: 6rem;
-    height: 6rem;
+    width: 7.5rem;
+    height: 7.5rem;
     border-radius: 50%;
     object-fit: cover;
     border: 3px solid var(--border-color);
@@ -92,14 +92,14 @@ body {
 }
 
 .profile-fallback {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--text-secondary);
     background: var(--bg-secondary);
     padding: 1rem;
     border-radius: 50%;
     display: none;
-    width: 6rem;
-    height: 6rem;
+    width: 7.5rem;
+    height: 7.5rem;
     align-items: center;
     justify-content: center;
     position: absolute;
@@ -108,14 +108,14 @@ body {
 }
 
 .profile-avatar i {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--text-secondary);
     background: var(--bg-secondary);
     padding: 1rem;
     border-radius: 50%;
     display: block;
-    width: 6rem;
-    height: 6rem;
+    width: 7.5rem;
+    height: 7.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -135,15 +135,15 @@ body {
 .profile-title {
     font-size: var(--font-size-lg);
     color: var(--text-secondary);
-    margin-bottom: 0;
+    margin-bottom: 1rem;
     font-weight: 500;
 }
 
 .profile-links {
     display: flex;
     align-items: stretch;
-    justify-content: center;
-    gap: 1.5rem;
+    justify-content: flex-start;
+    gap: 1rem;
     width: 100%;
 }
 
@@ -756,6 +756,8 @@ body {
     
     .profile-links {
         flex-wrap: wrap;
+        justify-content: center;
+        padding-left: 0;
     }
 
     .profile-link {
