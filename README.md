@@ -127,7 +127,7 @@ Designed and implemented advanced SQL and ETL workflows across PostgreSQL and Sn
 ---
 
 ## 📱 Connect With Me
-- **Email**: [wew068@ucsd.edu](mailto:wew068@ucsd.edu)
+- **Email**: [ygweihsien910622@gmail.com](mailto:ygweihsien910622@gmail.com)
 - **LinkedIn**: [wei-hsien-wang-b21922230](https://linkedin.com/in/wei-hsien-wang-b21922230)
 - **GitHub**: [@rsm-wew068](https://github.com/rsm-wew068)
 - **Hugging Face**: [rsm-wew068](https://huggingface.co/rsm-wew068)

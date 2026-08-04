@@ -31,34 +31,48 @@
                     <div class="profile-info">
                         <h1 class="profile-name">Wei-Hsien (Rachel) Wang</h1>
                         <p class="profile-title">AI/ML Engineer | MS in Business Analytics @ UC San Diego</p>
-                        <div class="profile-links">
-                            <a href="mailto:ygweihsien910622@gmail.com" class="profile-link">
-                                <i class="fas fa-envelope"></i>
-                                ygweihsien910622@gmail.com
-                            </a>
-                            <a href="https://linkedin.com/in/wei-hsien-wang-b21922230" class="profile-link"
-                                target="_blank" rel="noopener noreferrer">
-                                <i class="fab fa-linkedin"></i>
-                                LinkedIn
-                            </a>
-                            <a href="https://github.com/rsm-wew068" class="profile-link" target="_blank"
-                                rel="noopener noreferrer">
-                                <i class="fab fa-github"></i>
-                                GitHub
-                            </a>
-                            <a href="https://huggingface.co/rsm-wew068" class="profile-link" target="_blank"
-                                rel="noopener noreferrer">
-                                <i class="fas fa-robot"></i>
-                                Hugging Face
-                            </a>
-                            <a href="https://public.tableau.com/app/profile/rachel.wang2435/vizzes" class="profile-link"
-                                target="_blank" rel="noopener noreferrer">
-                                <i class="fas fa-chart-bar"></i>
-                                Tableau
-                            </a>
-                        </div>
                     </div>
                 </div>
+                <div class="profile-links">
+                    <a href="mailto:ygweihsien910622@gmail.com" class="profile-link">
+                        <i class="fas fa-envelope"></i>
+                        ygweihsien910622@gmail.com
+                    </a>
+                    <a href="https://linkedin.com/in/wei-hsien-wang-b21922230" class="profile-link"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin"></i>
+                        LinkedIn
+                    </a>
+                    <a href="https://github.com/rsm-wew068" class="profile-link" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                        GitHub
+                    </a>
+                    <a href="https://huggingface.co/rsm-wew068" class="profile-link" target="_blank"
+                        rel="noopener noreferrer">
+                        <i class="fas fa-robot"></i>
+                        Hugging Face
+                    </a>
+                    <a href="https://public.tableau.com/app/profile/rachel.wang2435/vizzes" class="profile-link"
+                        target="_blank" rel="noopener noreferrer">
+                        <i class="fas fa-chart-bar"></i>
+                        Tableau
+                    </a>
+                </div>
+                <!-- Featured Technical Writing -->
+                <aside class="featured-article-banner" aria-labelledby="featured-article-title">
+                    <div class="featured-article-content">
+                        <span class="featured-article-label">Featured Technical Writing</span>
+                        <h2 id="featured-article-title">How I Built This AI-Powered Portfolio</h2>
+                        <p>Read the technical breakdown of how I built and deployed this site using Gemini 3 Flash,
+                            FastAPI, Docker, Cloud Build, Artifact Registry, and Google Cloud Run.</p>
+                    </div>
+                    <a href="https://dev.to/rachel_wang_ccd6554f7e6e6/rachel-wangs-portfolio-built-with-gemini-cloud-run-442m"
+                        class="article-button" target="_blank" rel="noopener noreferrer">
+                        Read the Technical Write-up on DEV
+                        <i class="fas fa-arrow-up-right-from-square"></i>
+                    </a>
+                </aside>
                 <div class="hero-description">
                     <p>I'm a Master of Science in Business Analytics graduate from UC San Diego (Class of 2025). I
                         specialize in machine learning, NLP, data engineering, and generative AI technologies,
@@ -78,8 +92,8 @@
         </div>
         <!-- Navigation -->
         <div class="nav-tabs" data-role="nav">
-            <button class="nav-tab active" data-section="experience">💼 Experience</button>
-            <button class="nav-tab" data-section="ai-agents">🧠 AI Agents</button>
+            <button class="nav-tab active" data-section="ai-agents">🧠 AI Agents</button>
+            <button class="nav-tab" data-section="experience">💼 Experience</button>
             <button class="nav-tab" data-section="modeling">🧪 Modeling &amp; Experiments</button>
             <button class="nav-tab" data-section="data-engineering">📊 Data Engineering</button>
             <button class="nav-tab" data-section="education">🎓 Education</button>
@@ -88,7 +102,7 @@
         <!-- Content Sections -->
         <div class="content" data-role="main">
             <!-- Experience Section -->
-            <div id="experience" class="section active" data-role="section">
+            <div id="experience" class="section" data-role="section">
                 <h2 class="section-title">
                     <i class="fas fa-briefcase"></i>
                     Professional Experience
@@ -98,9 +112,37 @@
                         <div class="timeline-marker current"></div>
                         <div class="timeline-content">
                             <div class="timeline-header">
-                                <h3>Full Stack AI Engineer</h3>
+                                <h3>Growth Engineer</h3>
+                                <span class="company">Stealth Startup, San Jose, CA</span>
+                                <span class="date">Jun 2026 – Present</span>
+                            </div>
+                            <div class="timeline-description">
+                                <ul>
+                                    <li>Rebuilt the company site in <strong>Next.js (React/TypeScript)</strong>, developing reusable components, page templates, and structured content workflows; deployed on <strong>Vercel</strong> and improved PageSpeed from <strong>64 to 99</strong> and site health from <strong>48% to 90%</strong></li>
+                                    <li>Automated blog production via <strong>GitHub Actions</strong> with an AIGC pipeline that discovers keyword-targeted topics, generates content via <strong>Claude</strong>, and creates images via <strong>OpenAI</strong></li>
+                                    <li>Drove SEO and GEO strategy using <strong>Semrush</strong> for research and <strong>GSC/Otterly AI</strong> for tracking, moving the core local keyword from unranked to page 2 and growing AI citations from <strong>0 to 35</strong> in the first month</li>
+                                </ul>
+                                <div class="tech-stack">
+                                    <span class="tech-tag">Next.js</span>
+                                    <span class="tech-tag">React</span>
+                                    <span class="tech-tag">TypeScript</span>
+                                    <span class="tech-tag">Vercel</span>
+                                    <span class="tech-tag">GitHub Actions</span>
+                                    <span class="tech-tag">Claude</span>
+                                    <span class="tech-tag">OpenAI</span>
+                                    <span class="tech-tag">Semrush</span>
+                                    <span class="tech-tag">SEO/GEO</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>AI Engineer</h3>
                                 <span class="company">Azazie, San Jose, CA</span>
-                                <span class="date">Feb 2026 – Present</span>
+                                <span class="date">Feb 2026 – May 2026</span>
                             </div>
                             <div class="timeline-description">
                                 <ul>
@@ -311,7 +353,7 @@
                 </div>
             </div>
             <!-- AI Agents Section -->
-            <div id="ai-agents" class="section" data-role="section">
+            <div id="ai-agents" class="section active" data-role="section">
                 <h2 class="section-title">
                     <i class="fas fa-robot"></i>
                     AI Agents
@@ -975,7 +1017,7 @@
             <div class="footer-content">
                 <p>© 2025 Wei-Hsien (Rachel) Wang. All rights reserved.</p>
                 <div class="footer-links">
-                    <a href="mailto:wew068@ucsd.edu">Contact</a>
+                    <a href="mailto:ygweihsien910622@gmail.com">Contact</a>
                     <a href="https://github.com/rsm-wew068" target="_blank" rel="noopener noreferrer">GitHub</a>
                     <a href="https://linkedin.com/in/wei-hsien-wang-b21922230" target="_blank"
                         rel="noopener noreferrer">LinkedIn</a>
