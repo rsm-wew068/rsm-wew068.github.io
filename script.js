@@ -112,7 +112,7 @@ function initScrollEffects() {
         // Add shadow to navigation when scrolling
         if (scrollTop > 100) {
             nav.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.1)';
-            nav.style.backgroundColor = 'rgba(247, 246, 243, 0.95)';
+            nav.style.backgroundColor = 'var(--bg-secondary)';
             nav.style.backdropFilter = 'blur(10px)';
         } else {
             nav.style.boxShadow = 'none';
